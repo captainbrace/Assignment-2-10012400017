@@ -1,0 +1,89 @@
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body{
+    background-color:beige;
+    line-height: 1cm;
+    margin:0;
+    padding: 40px 0;
+    letter-spacing: normal;
+    font-weight: bolder;
+}
+
+input, select, button{
+    width: 100%;
+    display:block;
+    padding:10px 12px;
+    border: 1px black;
+    font-size: small;
+   align-self:center;
+}
+
+input[type="radio"]{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70px;
+  margin-left: 10vw;
+}
+
+.radio-group label {
+  display: flex;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 0.5rem; 
+}
+
+input:focus ,select:focus{
+  border-color:cornsilk;
+  box-shadow:5cap ;
+  border:2px ;
+}
+
+input:hover ,select:hover{
+  background-color:cornsilk;
+  cursor: pointer;
+}
+
+.title{
+  text-align: center;
+}
+
+.form-container{
+  display: block;
+    max-width: 470px;
+    padding: 30px ;
+    margin: 0 auto;
+    border: 2px solid  blueviolet;
+    border-radius: 5%;
+    border-style: groove;
+    background-color:crimson;
+    text-align: center;
+    align-self: center;
+}
+
